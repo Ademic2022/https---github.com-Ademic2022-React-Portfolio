@@ -34,10 +34,34 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter size={30} className="cursor-pointer" />
-            <FaFacebook size={30} className="cursor-pointer" />
-            <FaLinkedin size={30} className="cursor-pointer" />
-            <FaGithub size={30} className="cursor-pointer" />
+            <a
+              href="https://twitter.com/ademic_code"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter size={30} className="cursor-pointer" />
+            </a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook size={30} className="cursor-pointer" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ademic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={30} className="cursor-pointer" />
+            </a>
+            <a
+              href="https://github.com/ademic2022"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub size={30} className="cursor-pointer" />
+            </a>
           </div>
         </div>
       </div>
