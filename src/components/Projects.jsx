@@ -4,7 +4,7 @@ import what1 from "../assets/what1.jpeg";
 import what2 from "../assets/what2.jpeg";
 import school from "../assets/school.png";
 import sms from "../assets/sms.png";
-import famec from "../assets/famec.png"
+import famec from "../assets/famec.png";
 
 const Projects = () => {
   return (
@@ -13,10 +13,11 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam accusantium provident officia blanditiis, deleniti, est placeat
-        magni laudantium nam commodi nihil expedita et illum neque quibusdam ab.
-        Temporibus, quod!
+        Explore a showcase of my recent projects, each crafted with passion and
+        creativity. From web applications simplifying school management to
+        innovative WhatsApp reply automation tools, these projects reflect my
+        dedication to building impactful solutions. Scroll down to get a glimpse
+        of my work.
       </p>
       <div className="grid sm:grid-cols-3 gap-12">
         <ProjectItems img={what1} title={"Whatsapp Rep"} />
