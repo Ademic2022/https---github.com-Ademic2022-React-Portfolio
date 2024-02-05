@@ -20,10 +20,16 @@ const Projects = () => {
         of my work.
       </p>
       <div className="grid sm:grid-cols-3 gap-12">
-        <ProjectItems img={what1} title={"Whatsapp Rep"} />
-        <ProjectItems img={school} title={"School"} />
-        <ProjectItems img={what2} title={"Whatsapp Rep"} />
-        <ProjectItems img={famec} title={"Famec"} />
+        <ProjectItems img={what1} title={"Whatsapp Replicate"} />
+        <ProjectItems img={school} title={"School Application"} />
+        <ProjectItems img={what2} title={"Whatsapp Replicate"} />
+        <ProjectItems
+          img={famec}
+          title={"Famec"}
+          url={
+            "https://ademic.hashnode.dev/famec-your-ally-for-achieving-harmony-in-your-home"
+          }
+        />
         <ProjectItems
           img={sms}
           title={"School Management"}
