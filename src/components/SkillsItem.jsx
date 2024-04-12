@@ -1,6 +1,7 @@
 import React from "react";
 
-const SkillsItem = ({ year, title, duration, details }) => {
+const SkillsItem = ({ skill }) => {
+  const { year, title, duration, details } = skill;
   return (
     <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
       <li className="mb-10 ml-4 ">
